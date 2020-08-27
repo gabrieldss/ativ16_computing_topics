@@ -1,1 +1,1 @@
-# ativ16_computing_topics
+# Activity 16 - class codes (08/26)
