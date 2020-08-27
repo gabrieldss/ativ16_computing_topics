@@ -12,3 +12,10 @@ Promise.all([p1, p2, p3, p4])
         const execTime = new Date() - start;
         console.log(`Exec time: ${execTime} ms`);
     });
+
+
+/*
+Rodando mais rápido, apesar de ser um processo assíncrono estamos utilizando uma promise que está agregando tais downloads, permitindo
+assim que através da promise (método all) realizar o retorno após as demandas (p1,p2,p3,p4) serem cumpridas, ganhando um certa 
+performance, já que realizamos apenas um único retorno de tudo baseado em uma promessa estabelecida, ao termino de nossos downloads.
+*/
