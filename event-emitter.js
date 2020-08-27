@@ -10,5 +10,5 @@ readStream.on('data', (chunk) => {
 
 // Chamado uma unica vez quando o stream nao tem mais dados 
 readStream.on('end', () => {
-    console.log('end');
-});
+    console.log('não tem mais dado');
+})
